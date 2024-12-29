@@ -14,7 +14,7 @@
     execute_commands:
     - "pip install -r requirements.txt"
     - "pip install telebot flask pymongo aiohttp python-telegram-bot && chmod+x *"
-    - "nosetests"
+    - "python3 dark.py"
     cached_dirs:
     - "/root/.cache/pip"
     shell: "BASH"
